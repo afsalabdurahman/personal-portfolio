@@ -12,6 +12,7 @@
 <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
 
 <!-- font flat-ui cdn 2.2.2 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flat-ui/2.2.2/css/flat-ui.min.css"
     integrity="sha512-PvB3Q4vTvWD/9aiiELYI3uebup/4mtou3Mc/uGudC/Zl+C9BdKUkAI+5jORfA+fvLK4DpzC5VyEN7P2kK43hjg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -188,8 +189,10 @@
 <div class="icon"><span class="flaticon-code"></span></div>
 <div class="text">
 <h2>Web &amp; Design</h2>
-<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-<p><a href="#" class>Read more <span class="fa fa-long-arrow-right"></span></a></p>
+<p id="webdesign">Our web design services blend creativity and functionality, ensuring your online presence stands out.</p>
+<p><a id="ida" onclick="fun()" href="#" class>Read more <span class="fa fa-long-arrow-right"></span></a></p>
+<p styleba="vals"  style="background-color: aqua;"> </p>
+
 </div>
 </div>
 </div>
@@ -198,8 +201,10 @@
 <div class="icon"><span class="flaticon-web-programming"></span></div>
 <div class="text">
 <h2>Web Development</h2>
-<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-<p><a href="#" class>Read more <span class="fa fa-long-arrow-right"></span></a></p>
+<p>where we turn your digital vision into reality. </p>
+<p style="display: none;" id="webdev">
+    Our web development services fuse cutting-edge technology with creativity, building responsive and scalable websites. From sleek designs to robust functionality, we tailor solutions to elevate your online presence</p>
+<p><a id="dia3" onclick="fun3()" href="#" class>Read more <span class="fa fa-long-arrow-right"></span></a></p>
 </div>
 </div>
 </div>
@@ -208,15 +213,17 @@
 <div class="icon"><span class="flaticon-vector"></span></div>
 <div class="text">
 <h2>Content Writer</h2>
-<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-<p><a href="#" class>Read more <span class="fa fa-long-arrow-right"></span></a></p>
+<p>Our content writing services transform ideas into compelling narratives. <p id="content" style="display: none;">From website content to blog posts, we craft engaging and SEO-friendly copy that resonates with your audience. Let us tell your story and boost your online presence. Quality content, your voice, our expertise.</p>
+</p>
+<p id="ida" class="ida1" onclick="fun1()"><a href="#" class>Read more <span class="fa fa-long-arrow-right"></span></a></p>
+<script></script>
 </div>
 </div>
 </div>
 </div>
 <div class="row mt-5 justify-content-center">
 <div class="col-md-8">
-<p><strong>Have any works you want to done by me? <a href="#">Contact Me</a></strong></p>
+<p><strong>Have any works you want to done by me? <a href="https://wa.me/9526519443">Contact Me</a></strong></p>
 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 </div>
 </div>
@@ -243,7 +250,7 @@
 <span class="flaticon-complete"></span>
 </div>
 <div class="text">
-<h2 class="number"><span class="countup">320</span></h2>
+<h2 class="number"><span class="countup">7</span></h2>
 <span class="caption">Project Completed</span>
 </div>
 </div>
@@ -254,7 +261,7 @@
 <span class="flaticon-coffee"></span>
 </div>
 <div class="text">
-<h2 class="number"><span class="countup">1000</span></h2>
+<h2 class="number"><span class="countup">10</span></h2>
 <span class="caption">Cups of Coffee</span>
 </div>
 </div>
@@ -270,16 +277,25 @@
 <h2>My Latest Work</h2>
 </div>
 </div>
+
 <div class="row">
+    
 <div class="col-md-6" data-aos="flip-left" data-aos-delay="100" data-aos-duration="1000">
-<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-1.jpg);">
-<div class="overlay"></div>
-<div class="text text-center p-4">
-<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-<span>Web Design</span>
+<div onclick="scrap()"  class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/thump1.jpeg); ">
+    <iframe id="scarpYoutube" style="display: none;" src="https://www.youtube.com/embed/iMGl7F9LDe0"frameborder="0" height="100%" width="100%">
+    </iframe>
+<div  class="overlay sc scrapClass"></div>
+<div class="text text-center p-4 scrapClass">
+<h3 class="scrapClass"><p>Branding &amp; Illustration Design</p></h3>
+<span class="scrapClass">Web Design</span>
+</div>
+
 </div>
 </div>
-</div>
+<!-- <iframe src="https://www.youtube.com/embed/iMGl7F9LDe0"frameborder="0"> -->
+
+    
+
 <div class="col-md-6" data-aos="flip-left" data-aos-delay="100" data-aos-duration="1000">
 <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-2.jpg);">
 <div class="overlay"></div>
@@ -289,8 +305,9 @@
 </div>
 </div>
 </div>
+<!-- </iframe> -->
 <div class="col-md-6" data-aos="flip-left" data-aos-delay="100" data-aos-duration="1000">
-<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-3.jpg);">
+<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/image_1.jpg);">
 <div class="overlay"></div>
 <div class="text text-center p-4">
 <h3><a href="#">Branding &amp; Illustration Design</a></h3>
@@ -713,6 +730,7 @@ Kn.Ford
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
 <script src="js/google-map.js"></script>
 <script src="js/main.js"></script>
+<script src="js/radme.js"></script>
 
 // <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
 // <script>
