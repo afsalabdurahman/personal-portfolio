@@ -38,7 +38,34 @@ function fun(){
         
         
     }
+    function netflix(){
 
+        let a=document.getElementsByClassName("netflix")
+        console.log(a)
+       a[1].style.display="none";
+       a[0].style.display="none";
+       
+       
+        document.getElementById("netflixYoutube").style.display="";
+    }
+function bank(){
+    let a=document.getElementsByClassName("bank")
+    console.log(a)
+   a[1].style.display="none";
+   a[0].style.display="none";
+   
+   
+    document.getElementById("bankYoutube").style.display="";
+}
+function medical(){
+    let a=document.getElementsByClassName("medical")
+    console.log(a)
+   a[1].style.display="none";
+   a[0].style.display="none";
+   
+   
+    document.getElementById("medicalYoutube").style.display="";
+}
     // document.getElementById("ida").innerText=="Read more";
     //  document.getElementById("content").style.visibility="hidden"
     
